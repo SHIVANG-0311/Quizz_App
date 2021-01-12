@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/ic_bg">
+<!--        tools:context=".MainActivity">-->
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:id="@+id/textView"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="296dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/poora_final"
+                android:layout_marginBottom="20dp"
+
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hey, Congratulations!"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_marginBottom="16dp"
+                android:layout_margin="20dp"
+        />
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="USER NAME"
+                android:fontFamily="cursive"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_margin="14dp"
+
+        />
+        <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Your score is 9 out of 10"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+
+        />
+<!--        <Button-->
+<!--                android:id="@+id/btn_finish"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Finish"-->
+<!--                android:padding="15dp"-->
+<!--                android:fontFamily="sans-serif"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@color/colorPrimaryDark"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="20dp"-->
+        />
+        <Button
+                android:id="@+id/btn_finish"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:padding="15dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+        />
+
+
+</LinearLayout>
